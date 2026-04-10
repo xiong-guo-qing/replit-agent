@@ -1,0 +1,28 @@
+# Dependencies
+node_modules/
+.pnpm-store/
+
+# Build outputs
+dist/
+*.map
+
+# Cache
+.cache/
+.vite/
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+
+# Environment
+.env
+.env.*
+!.env.example
+
+# Replit internal
+.local/
+.replit-artifact/
+
+# Lock files (optional, include if you want reproducible installs)
+# pnpm-lock.yaml
